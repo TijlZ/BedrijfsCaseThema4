@@ -1,8 +1,8 @@
 \documentclass[]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=bibtex,style=verbose-trad2]{biblatex}
 \usepackage{titlesec}
-\addbibresource{case.bib}
+\bibliography{case.bib}
 
 \titleformat{\paragraph}
 {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
@@ -386,6 +386,6 @@ Het verzamelen voor de literatuurstudie was geen probleem. PMBOK, PRINCE2 en Agi
 
 \subsection{Gecontacteerde bedrijven}
 
-\subsection{Literatuurstudie bronnen}
+\nocite{*}
 \printbibliography
 \end{document}
